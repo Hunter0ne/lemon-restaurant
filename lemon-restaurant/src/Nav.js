@@ -1,23 +1,40 @@
 import "./App.css";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 function Nav() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <nav>
-      <ul>
+    <nav className="nav">
+      <div
+        className="menu"
+        onClick={() => {
+          setMenuOpen(!menuOpen);
+        }}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
         <li>
-          <a></a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a></a>
+          <NavLink to="/About">About</NavLink>
         </li>
         <li>
-          <a></a>
+          <NavLink to="/Menu">Menu</NavLink>
         </li>
         <li>
-          <a></a>
+          <NavLink to="/Reservations">Reservations</NavLink>
         </li>
         <li>
-          <a></a>
+          <NavLink to="/Orderonline">Order Online</NavLink>
+        </li>
+        <li>
+          <NavLink to="/Login">Login</NavLink>
         </li>
       </ul>
     </nav>

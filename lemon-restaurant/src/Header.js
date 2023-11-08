@@ -1,11 +1,15 @@
 import "./App.css";
-import logo from "./assets/icons_assets/Logo";
+import Nav from "./Nav";
+import logo from "./assets/icons_assets/Logo.svg";
 
 function Header() {
   return (
-    <header>
+    <header className="nav-header">
       <div className="logo">
         <img src={logo} alt="My Logo" />
+      </div>
+      <div>
+        <Nav />
       </div>
     </header>
   );
