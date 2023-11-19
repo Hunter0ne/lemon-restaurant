@@ -1,25 +1,16 @@
 import "./App.css";
+import Nav from "./Nav";
 import Header from "./Header";
-import { Route, Routes } from "react-router-dom";
-import { Home } from "./Pages/Home";
-import { About } from "./Pages/About";
-import { Menu } from "./Pages/Menu";
-import { Reservations } from "./Pages/Reservations";
-import { Orderonline } from "./Pages/Orderonline";
-import { Login } from "./Pages/Login";
+import Menu from "./Menu";
+import BookingForm from "./components/BookingForm";
 
 function App() {
   return (
     <>
+      <Nav />
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Menu" element={<Menu />} />
-        <Route path="/Reservations" element={<Reservations />} />
-        <Route path="/Orderonline" element={<Orderonline />} />
-        <Route path="/Login" element={<Login />} />
-      </Routes>
+      <Menu />
+      <BookingForm />
     </>
   );
 }

@@ -1,0 +1,23 @@
+.delivery-button {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  align-items: center;
+  background-color: transparent;
+  font-weight: bold;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin: 2rem 0;
+  padding: 0 0 2rem 0;
+}
+.delivery-container .delivery-man img {
+  width: 20px;
+  height: 20px;
+}
+
+.delivery-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem;
+}

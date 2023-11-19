@@ -1,0 +1,42 @@
+.nav-header {
+  background-color: #495e49;
+  display: flex;
+  padding: 1rem 3rem;
+  margin: 0;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.heading-title {
+  color: #f4cf14cc;
+  font-family: Markazi;
+  font-size: 32pt;
+  font-weight: lighter;
+}
+
+.food-location {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-family: Markazi;
+  font-size: 20pt;
+  font-weight: lighter;
+}
+p {
+  color: #ffffff;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #f4ce14;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.chef-image img {
+  width: 250px;
+  height: 300px;
+  border-radius: 1rem;
+}
