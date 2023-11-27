@@ -2,7 +2,8 @@ import "./App.css";
 import Nav from "./Nav";
 import Header from "./Header";
 import Menu from "./Menu";
-import BookingPage from "./components/BookingPage";
+import Footer from "./Footer";
+import Reservations from "./Pages/Reservations";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <Nav />
       <Header />
       <Menu />
-      <BookingPage />
+      <Reservations />
+
+      <Footer />
     </>
   );
 }

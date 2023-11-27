@@ -1,0 +1,16 @@
+footer section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  gap: 20px;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer img {
+  height: 200px;
+}
